@@ -1,0 +1,2 @@
+alias ftc='ssh -v bathinie-ua@172.27.200.26'
+alias ldv='ssh -v bathinie-ua@172.26.200.26'
