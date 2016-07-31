@@ -5,6 +5,11 @@ alias g="git"
 alias v="vim"
 alias rr="rm -rf"
 alias json="json -c"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/Work/ios/working"
+alias h="history"
+alias j="jobs"
 
 # List declared aliases, functions
 
@@ -17,6 +22,7 @@ alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non 
 colorflag="-G"
 alias ls="command ls ${colorflag}"
 alias l="ls -lF ${colorflag}" # all files, in long format
+alias ll="ls -l"
 alias la="ls -laF ${colorflag}" # all files inc dotfiles, in long format
 alias lsd='ls -lF ${colorflag} | grep "^d"' # only directories
 
@@ -30,6 +36,8 @@ alias egrep='egrep --color=auto'              # show differences in colour
 alias fgrep='fgrep --color=auto'              # show differences in colour
 #
 
+#finder
+alias tf='open -a Finder .'
 
 #top
 alias cpu='top -o cpu'
