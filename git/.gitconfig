@@ -20,6 +20,7 @@
 [core]
 	editor = atom
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	pager = less -iXFR
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
 	ui = auto
