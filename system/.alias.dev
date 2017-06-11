@@ -1,0 +1,4 @@
+alias rn="react-native"
+alias rninit="react-native init"
+alias runios="react-native run-ios"
+alias runand="react-native run-android"
