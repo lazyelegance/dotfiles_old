@@ -21,23 +21,8 @@ if [ ! -n "$SPACESHIP_PROMPT_ORDER" ]; then
     host
     dir
     git
-    hg
-    package
-    node
-    ruby
-    elixir
     xcode
     swift
-    golang
-    php
-    rust
-    haskell
-    julia
-    docker
-    venv
-    pyenv
-    dotnet
-    ember
     exec_time
     line_sep
     vi_mode
